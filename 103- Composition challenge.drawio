@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-11T21:34:24.817Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FJEOsDVvrOkLbXPoWY-Z" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-11T21:38:24.955Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NzjZoPy1x7lJH08tnLz6" version="22.1.0" type="github">
   <diagram name="페이지-1" id="UD5DOMMkUVTMc-f7pd6E">
-    <mxGraphModel dx="1194" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,8 +12,11 @@
         <mxCell id="zYQr5RiSIAcOw9p3dnr1-2" value="brewMaster: CoffeeMaker&lt;br&gt;dishWasher: DishWasher&lt;br&gt;iceBox: Refrigerator&lt;br&gt;&lt;br&gt;addWater()&lt;br&gt;pourMilk()&lt;br&gt;loadDishwasher()&lt;br&gt;setKitchenState(boolean, boolean, boolean)&lt;br&gt;&lt;br&gt;doKitchenWork()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="zYQr5RiSIAcOw9p3dnr1-1">
           <mxGeometry y="50" width="250" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="zYQr5RiSIAcOw9p3dnr1-3" value="Refrigerator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="414" y="40" width="160" height="86" as="geometry" />
+        <mxCell id="zYQr5RiSIAcOw9p3dnr1-13" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="414" y="-23" width="160" height="336" as="geometry" />
+        </mxCell>
+        <mxCell id="zYQr5RiSIAcOw9p3dnr1-3" value="Refrigerator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="zYQr5RiSIAcOw9p3dnr1-13">
+          <mxGeometry width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="zYQr5RiSIAcOw9p3dnr1-4" value="hasWorkToDo: boolean" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="zYQr5RiSIAcOw9p3dnr1-3">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -21,8 +24,8 @@
         <mxCell id="zYQr5RiSIAcOw9p3dnr1-5" value="orderFood()" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="zYQr5RiSIAcOw9p3dnr1-3">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zYQr5RiSIAcOw9p3dnr1-7" value="DishWasher" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="414" y="164" width="160" height="86" as="geometry" />
+        <mxCell id="zYQr5RiSIAcOw9p3dnr1-7" value="DishWasher" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="zYQr5RiSIAcOw9p3dnr1-13">
+          <mxGeometry y="124" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="zYQr5RiSIAcOw9p3dnr1-8" value="hasWorkToDo: boolean" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="zYQr5RiSIAcOw9p3dnr1-7">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
@@ -30,14 +33,41 @@
         <mxCell id="zYQr5RiSIAcOw9p3dnr1-9" value="doDishes()" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="zYQr5RiSIAcOw9p3dnr1-7">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zYQr5RiSIAcOw9p3dnr1-10" value="CoffeeMaker" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="414" y="290" width="160" height="86" as="geometry" />
+        <mxCell id="zYQr5RiSIAcOw9p3dnr1-10" value="CoffeeMaker" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="zYQr5RiSIAcOw9p3dnr1-13">
+          <mxGeometry y="250" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="zYQr5RiSIAcOw9p3dnr1-11" value="hasWorkToDo: boolean" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="zYQr5RiSIAcOw9p3dnr1-10">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zYQr5RiSIAcOw9p3dnr1-12" value="brewCoffee()" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="zYQr5RiSIAcOw9p3dnr1-10">
           <mxGeometry y="56" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zYQr5RiSIAcOw9p3dnr1-19" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zYQr5RiSIAcOw9p3dnr1-4" target="zYQr5RiSIAcOw9p3dnr1-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="290" as="sourcePoint" />
+            <mxPoint x="490" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zYQr5RiSIAcOw9p3dnr1-20" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zYQr5RiSIAcOw9p3dnr1-8" target="zYQr5RiSIAcOw9p3dnr1-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="424" y="28" as="sourcePoint" />
+            <mxPoint x="300" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zYQr5RiSIAcOw9p3dnr1-21" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=-0.133;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zYQr5RiSIAcOw9p3dnr1-12" target="zYQr5RiSIAcOw9p3dnr1-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="434" y="38" as="sourcePoint" />
+            <mxPoint x="310" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
